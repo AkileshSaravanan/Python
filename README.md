@@ -2,11 +2,11 @@
 
 # AUTHOR = AKILESH S,
 
-Myself Learning on PYTHON,
+Myself Learning on **PYTHON**,
 
 The codes and information listed above are unique and it is open source to use,
 
-The files provided contains codes on **PYTHON**,
+The files provided contain codes on **PYTHON**,
 
 I started from scratch and advanced my skills in **PYTHON** by on **VISUAL CODE STUDIO**,
 
