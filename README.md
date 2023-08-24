@@ -1,8 +1,8 @@
 # Python
 
-# AUTHOR = AKILESH S
+# AUTHOR = AKILESH S,
 
-Myself Learning on PYTHON,
+Myself Learning on **PYTHON**,
 
 The codes and information listed above are unique and it is open source to use,
 
