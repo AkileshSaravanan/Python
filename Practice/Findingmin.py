@@ -1,4 +1,4 @@
-arr = list(map(int,'10 200 100 300 1000 30 20 ".split()))
+arr = list(map(int,"10 200 100 300 1000 30 20 ".split()))
 k = 3
 print(arr)
 arr.sort()
