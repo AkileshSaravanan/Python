@@ -29,3 +29,7 @@ Input
 Output
 7 5
 '''
+a, b, c = map(int,input().split())
+d = a-b
+e = d- c 
+print(d,e)
