@@ -20,6 +20,7 @@ Input
 1 2
 2 1
 50 100
+
 Output
 YES
 NO
