@@ -26,3 +26,10 @@ Output
 B
 A
 '''
+t=int(input())
+for i in range(t):
+    x,y=list(map(int, input().split()))
+    if(x>y):
+        print("A")
+    else:
+        print("B")
