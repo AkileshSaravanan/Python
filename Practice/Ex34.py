@@ -20,3 +20,9 @@ Input
 Output
 YES
 '''
+x,y = [int(a) for a in input().split()]
+if(x<y):
+    print("YES")
+else:
+    print("No")
+    
