@@ -25,4 +25,3 @@ if(x<y):
     print("YES")
 else:
     print("No")
-    
