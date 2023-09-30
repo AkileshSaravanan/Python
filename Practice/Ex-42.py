@@ -29,3 +29,11 @@ NO
 YES
 NO
 '''
+t= int(input())
+for i in range(t):
+    n,x = map(int,input().split())
+    a = n*x 
+    if(a>=10000 and a<=99999):
+        print("Yes")
+    else:
+        print("No")
