@@ -26,3 +26,8 @@ Output
 16
 0
 '''
+t = int(input())
+for i in range(t):
+    x,y,z = map(int,input().split())
+    c = 5*x+10*y
+    print(c//z)
