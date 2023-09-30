@@ -28,3 +28,25 @@ Output
 Yes
 No
 '''
+def main():
+    T = int(input())
+
+    for _ in range(T):
+        X = input()
+        Y = input()
+
+        result = can_be_matched(X, Y)
+        print(result)
+
+def can_be_matched(X, Y):
+    for i in range(len(X)):
+        charX = X[i]
+        charY = Y[i]
+
+        if charX != charY and charX != '?' and charY != '?':
+            return "No"
+
+    return "Yes"
+
+if __name__ == "__main__":
+    main()
