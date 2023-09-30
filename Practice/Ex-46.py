@@ -8,7 +8,6 @@ First line will contain T, number of test cases. Then the test cases follow.
 Each test case contains of a single line of input, a string S.
 Output Format
 For each test case, if Chef is happy, print HAPPY else print SAD.
-
 You may print each character of the string in uppercase or lowercase (for example, the strings hAppY, Happy, haPpY, and HAPPY will all be treated as identical).
 
 Constraints
