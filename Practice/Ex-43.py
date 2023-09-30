@@ -20,7 +20,7 @@ Constraints
 1≤T≤100
 2≤N≤10 
 N is even.
-Sum of N over all test cases is at most 10^3.
+Sum of N over all test cases is at most 10^3 .
 S contains only characters 0 and 1.
 
 Sample 1:
