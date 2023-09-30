@@ -41,5 +41,22 @@ Output
 0 3
 1 1
 0 0
-
 '''
+t=int(input())
+while(t):
+    n=int(input())
+    s=input()
+    a=0
+    b=0
+    c="A"
+    for i in s:
+        if(i=="A" and c=="A"):
+           a=a+1
+        elif(i=="B"and c=="B"):
+           b=b+1
+        elif(i=="A" and c=="B"):
+           c="A"
+        elif(i=="B" and c=="A"):
+           c="B"
+    print(a,b)
+    t=t-1    
