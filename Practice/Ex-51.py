@@ -33,3 +33,35 @@ Addy
 Draw
 Om
 '''
+def giveStreak(useArr):
+    maxCount = 0
+    tempCount = 0
+    for i in useArr:
+        if i != 0:
+            tempCount += 1
+        else:
+            if tempCount > maxCount:
+                maxCount = tempCount
+            tempCount = 0
+
+    if tempCount > maxCount:
+        maxCount = tempCount
+
+    return maxCount
+
+
+for _ in range(int(input())):
+    n = int(input())
+    useOm = list(map(int,input().split()))
+    useAddy = list(map(int,input().split()))
+
+    omCount = giveStreak(useOm)
+    addyCount = giveStreak(useAddy)
+
+    if omCount > addyCount:
+        print("Om")
+    elif addyCount > omCount:
+        print("Addy")
+    else:
+        print("Draw")
+        
