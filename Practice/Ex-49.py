@@ -43,3 +43,18 @@ Output
 0
 5
 '''
+def main():
+    t = int(input())
+    while t > 0:
+        n = int(input())
+        a = list(map(int, input().split()))
+        b = list(map(int, input().split()))
+        count = 0
+        for k in range(n):
+            if 2 * a[k] >= b[k] and a[k] <= 2 * b[k]:
+                count += 1
+        print(count)
+        t -= 1
+
+if __name__ == "__main__":
+    main()
