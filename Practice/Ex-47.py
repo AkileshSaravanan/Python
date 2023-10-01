@@ -38,3 +38,27 @@ Yes
 No
 No
 '''
+def main():
+    T = int(input())
+    
+    for i in range(T):
+        done = int(input())
+        
+        arr = []
+        input_values = input().split()  # Read the space-separated input line
+        for k in range(done):
+            arr.append(int(input_values[k]))  # Convert each value to an integer
+        
+        isNonDecreasing = True
+        for j in range(1, done):
+            if arr[j] < arr[j - 1]:
+                isNonDecreasing = False
+                break
+        
+        if isNonDecreasing:
+            print("YES")
+        else:
+            print("NO")
+
+if __name__ == "__main__":
+    main()
