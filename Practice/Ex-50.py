@@ -34,7 +34,6 @@ Output
 17
 3
 '''
-
 def main():
     t = int(input())
     while t > 0:
