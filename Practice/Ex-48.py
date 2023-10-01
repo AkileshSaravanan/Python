@@ -37,3 +37,20 @@ Output
 0
 50
 '''
+class Main:
+    def main(self):
+        # your code goes here
+        t = int(input())
+        while t > 0:
+            n, f = map(int, input().split())
+            f_arr = list(map(int, input().split()))
+            c_arr = list(map(int, input().split()))
+            total = 0
+            for k in range(n):
+                if f_arr[k] >= f:
+                    total += c_arr[k]
+            print(total)
+            t -= 1
+
+codechef = Codechef()
+codechef.main()
