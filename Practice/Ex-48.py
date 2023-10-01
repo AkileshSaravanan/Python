@@ -37,7 +37,7 @@ Output
 0
 50
 '''
-class Main:
+class Codechef:
     def main(self):
         # your code goes here
         t = int(input())
