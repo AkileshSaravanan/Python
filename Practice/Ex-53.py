@@ -30,3 +30,13 @@ Input
 Output
 3
 '''
+import sys
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    a = list(map(int, input().split()))    
+    a.sort()    
+    min_diff = sys.maxsize    
+    for i in range(n - 1):
+        min_diff = min(min_diff, a[i + 1] - a[i])    
+    print(min_diff)
