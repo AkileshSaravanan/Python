@@ -31,3 +31,21 @@ Output
 6
 30
 '''
+import sys
+# Main function
+def main():
+    # Taking input for the number of test cases
+    T = int(input())    
+    # Running the loop for each test case
+    for i in range(T):
+        # Taking input for N and X
+        N, X = map(int, input().split())        
+        # Taking input for the array A
+        A = list(map(int, input().split()))        
+        # Sorting the array A
+        A.sort()        
+        # Printing the result
+        print(A[N - X] - 1)
+# Calling the main function
+if __name__ == "__main__":
+    main()
