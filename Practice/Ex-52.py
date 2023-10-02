@@ -26,3 +26,11 @@ Output
 6
 7
 '''
+
+t = int(input())
+a = []
+for i in range(t):
+    a.append(int(input()))
+a.sort()
+for j in range(len(a)):
+    print(a[j])
