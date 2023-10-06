@@ -1,8 +1,7 @@
 '''
-A function within a function is a concept in Python where you define and call a function inside another function. This is known as a nested function or inner function.
-
+A function within a function is a concept in Python where you define and call a function inside another function. 
+This is known as a nested function or inner function.
 Functions can call other functions at any level of nesting or independently.
-
 Check the sample code given below
 
 # Function to calculate the square of a number
