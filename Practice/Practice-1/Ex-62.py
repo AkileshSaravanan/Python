@@ -24,3 +24,13 @@ A function can access variables in its local scope, as well as variables in the 
 However, a local variable will take precedence over a global variable if they have the same name.
 Review the code in the IDE and click on 'Submit' to know the result.
 '''
+# Click on submit to see the result
+
+x = 10  # Global variable
+
+def my_function():
+    x = 20  # Local variable with the same name as the global variable
+    print(x)  # Accesses the local variable
+
+my_function()  # Output: 20
+print(x)  # Output: 10 (global variable is not affected)
