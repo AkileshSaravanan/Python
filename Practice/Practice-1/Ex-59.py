@@ -17,3 +17,11 @@ Output
 41902679
 5219
 '''
+def calculate(a, b):
+    result = a**2 + b**3 + (a**2 + b**3)**2 + (a**2 + b**3)**3
+    return result
+
+for _ in range(3):
+    A, B = map(int, input().split())
+    result = calculate(A, B)
+    print (result)
