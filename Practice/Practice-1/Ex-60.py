@@ -28,7 +28,8 @@ print_square(5)  # Output: Square of 5 is: 25
 Task
 Update the function given in the IDE to output the following to the IDE by printing from inside the function.
 Check sample output below.
-
+a*a + 2*a*b + b*b
+a + b 
 Sample 1:
 Input
 3 5
@@ -43,3 +44,14 @@ Output
 25
 5
 '''
+def compute_value(a, b):
+    # update your code below this line
+    result = a*a + 2*a*b + b*b
+    result1 = a + b 
+    print (result)
+    print(result1)
+
+t = 3
+for _ in range(t):
+    A, B = map(int, input().split())
+    compute_value(A, B)
