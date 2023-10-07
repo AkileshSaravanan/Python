@@ -27,3 +27,7 @@ Output
 3
 4
 '''
+t = int(input())
+for i in range(t):
+    n = int(input())
+    print(n+1)
