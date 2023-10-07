@@ -19,6 +19,7 @@ Output
 4
 6
 '''
+
 t = int(input())
 for i in range(t):
     N = int(input())
